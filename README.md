@@ -14,6 +14,8 @@
 - /payment - Menampilkan data pembayaran terkini
 - /addpayment - Mengatur data pembayaran berdasarkan balasan pesan
 
+## DONT FORGET ADD CONFIG.json
+
 ### CODE BY iDems
 ## HAVE SUGGEST/HELP? CHAT:
 - discord: demsm.kom or demss.kom
