@@ -245,9 +245,9 @@ else if (text === '/help') {
     bot.sendMessage(chatId, 'Berikut adalah perintah yang tersedia:\n/start - Memulai bot\n/help - Bantuan\n/header <teks> - Mengatur header (gunakan _ sebagai pengganti spasi)\n/new <id pertandingan> <bk/mj> - Membuat pertandingan baru\n/rekap <id pertandingan> - Merekap pertandingan\n/editmj <id> <tim kiri> <tim kanan> - Mengubah nama tim untuk pertandingan tipe mj\n/addmj <id> <1/2> <nama> <jumlah> - Menambahkan nama dan jumlah ke pertandingan tipe mj\n/delmj <id> <nama> <jumlah> - Menghapus nama dan jumlah dari pertandingan tipe mj\n/rekaplist <id pertandingan> - Merekap daftar nama dan jumlah dari pertandingan tipe mj\n/payment - Menampilkan data pembayaran terkini\n/addpayment - Mengatur data pembayaran berdasarkan balasan pesan');
 } 
 // Handler default
-else {
-    bot.sendMessage(chatId, `Anda mengirim: ${text}`);
-}
+// else {
+//     bot.sendMessage(chatId, `Tidak Ada Command Itu`);
+// }
 });
 
 console.log('Bot sudah berjalan...');
